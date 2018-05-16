@@ -9,7 +9,6 @@ def key_for_min_value(name_hash)
     smallest = v  
     array << k
     end
-    binding.pry
   end  
   array.last
 end
