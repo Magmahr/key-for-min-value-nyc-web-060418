@@ -8,8 +8,8 @@ def key_for_min_value(name_hash)
     if v < smallest
     smallest = v  
     array << k
-    binding.pry
     end
+    binding.pry
   end  
   array.last
 end
